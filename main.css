@@ -1,0 +1,143 @@
+section.troll{
+    width:80px;
+    height:50px;
+    border:0px solid white;
+    padding-left:2px;
+    padding-right:10px;
+    padding-top:15px;
+    animation-name:example;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+  }
+  @keyframes example{
+    0% {padding-left:2px;}
+    25% {padding-left:200px;}
+    100% {padding-left:500px;}
+  }
+.title{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+background-color:#254117;
+margin-left:-10px;
+margin-top:-10px;
+margin-right:-10px;
+padding-left:25px;
+box-shadow:0 2px 7px black;
+position:relative;
+width:100%;
+color:white;
+}
+ul{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-between;
+ list-style-type:none;
+}
+ul li{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-between;
+ margin-left:15px;
+ margin-top:15px;
+ margin-right:15px;
+}
+li a{
+text-decoration:none;
+color:white;
+}
+.laptop{
+    display:none;
+    align-items:center;
+}
+.banner{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+background-color:#438D80;
+margin:0 -15px;
+padding-left:20px;
+height:350px;
+}
+.banner .quote{
+    font-size:40px;color:black;font-family:Helvetica,sans-serif;
+}
+.banner img{
+width:600px;
+}
+.det{
+margin:15px;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-between;
+}
+.det .det-sub{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+flex-direction:column;
+padding:5px;
+border:0px solid black;
+width:175px;
+margin-top:15px;
+margin-left:1px;
+border-radius:5px;
+box-shadow:2px 2px 5px grey;
+}
+.det-sub img{
+width:170px;
+}
+.foot{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+background-color:#438D80;
+margin:0 -15px;
+}
+.sju ul{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+flex-direction:column;
+}
+.sju h4{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.help ul{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+flex-direction:column;
+}
+.help h4{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.download{
+display:flex;
+flex-wrap:wrap;
+flex-direction:column;
+padding-left:50px;
+}
+.download h4{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.download .sub-download{
+height:53px;
+width:120px;
+background-color:black;
+color:white;
+padding-left:8px;
+padding-top:5px;
+margin:5px;
+border-radius:8px;
+}
+.sub-download span{
+font-size:20px;
+}
